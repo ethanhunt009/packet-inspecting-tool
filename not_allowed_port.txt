@@ -1,0 +1,27 @@
+# Common high-risk ports (Add to not_allowed_port.txt)
+22      # SSH - Secure Shell (remote access)
+23      # Telnet (unencrypted remote access)
+25      # SMTP (email server)
+53      # DNS (could be used for DNS tunneling)
+135     # MS RPC
+137-139 # NetBIOS (Windows file/printer sharing)
+143     # IMAP (email protocol)
+445     # Microsoft-DS (SMB file sharing)
+993     # IMAPS (encrypted IMAP)
+995     # POP3S (encrypted POP3)
+1433    # Microsoft SQL Server
+1434    # Microsoft SQL Monitor
+2375    # Docker API (unencrypted)
+2376    # Docker API (SSL)
+3306    # MySQL Database
+3389    # RDP (Remote Desktop Protocol)
+4444    # Metasploit default listener
+5432    # PostgreSQL Database
+5900    # VNC (Virtual Network Computing)
+5985    # WinRM HTTP
+5986    # WinRM HTTPS
+6379    # Redis Database
+8080    # HTTP Alt (often used for proxies/admin interfaces)
+8443    # HTTPS Alt (often used for web admin interfaces)
+27017   # MongoDB Database
+28017   # MongoDB Web Interface
