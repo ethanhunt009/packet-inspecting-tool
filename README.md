@@ -3,4 +3,4 @@ Using allowed and not_allowed text files to configure the tool.
 As the name suggests, it will allow the ip and port in the allowed list and block ip and port in the not_allowed list.
 Th tool uses flask web interface to monitor the traffic and droped packets in a graphical way.
 
-To run the tool run command "python3 validation.py" 
+To run the tool run command "python3 Packet_Sniffing_Validation.py" 
